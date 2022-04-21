@@ -116,6 +116,7 @@ button {
   padding: 5px 25px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 
 .boxes h1 {
