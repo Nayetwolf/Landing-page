@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap')
 
 * {
   box-sizing: border-box;
@@ -125,6 +125,89 @@ button {
   font-weight: bold;
   color: #1f2937;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
+
+section.boxes {
+   margin-bottom: 120px;
+}
+
+div.container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 800px;
+}
+
+canvas .myCanvas {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.myCanvas {
+   align-items: center;
+   border: solid 3px #3883f6;
+   border-radius: 20px;
+   width: 150px;
+   height: 150px;
+}
+
+.paragraph {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 705px;
+   margin-left: 320px;
+   text-align: center;
+   color: #4e4f52;
+   gap: 35px;
+}
+
+.section-quote {
+   background-color: #e5e7eb;
+   min-height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+div.quote{
+   font-size: 36px;
+   font-style: italic;
+   font-weight: lighter;
+   color: #1f2937;
+   width: 800px;
+}
+
+h3 {
+   display: flex;
+   font-style: normal;
+   justify-content: flex-end;
+   align-items: flex-end;
+   font-size: large;
+}
+
+
+
+
+
+/*.boxes .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+div .box{
+   border: solid 3px #3883f6;
+   border-radius: 10px;
+   width: 150;
+   height: 150;
+}
+
+.box {
+   flex: 1;
+   margin: 20px 10px;
+   padding: 20px 20px;
+} */
 
 
